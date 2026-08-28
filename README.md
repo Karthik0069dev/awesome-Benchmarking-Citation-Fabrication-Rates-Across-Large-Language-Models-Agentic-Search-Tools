@@ -71,8 +71,9 @@ which is exactly the kind of failure this repository exists to catalog.
 ## Curated Research Papers
 
 Verification note: every entry below was checked for a real, resolvable arXiv / ACL /
-publisher / DOI link at the time of writing. Because this is a fast-moving area, re-verify
-links before your submission deadline (see [Tutorials](#tutorials-and-learning-resources)).
+publisher / DOI link at the time of writing (28 August 2026). Because this is a fast-moving
+area, links should be periodically re-verified — see
+[Tutorials](#tutorials-and-learning-resources) for verification tools.
 
 ### Survey Papers
 
@@ -314,18 +315,21 @@ links before your submission deadline (see [Tutorials](#tutorials-and-learning-r
 ## Tutorials and Learning Resources
 
 - **[Semantic Scholar Academic Graph API — Tutorial](https://www.semanticscholar.org/product/api/tutorial)** —
-  Official step-by-step tutorial for querying paper, author, and citation metadata to
-  verify whether a claimed reference actually exists.
+Official step-by-step tutorial for querying paper, author, and citation metadata to
+verify whether a claimed reference actually exists.
 - **[Crossref REST API documentation](https://www.crossref.org/documentation/retrieve-metadata/rest-api/)** —
-  Official docs for resolving DOIs and metadata; the standard first stop for checking
-  whether a cited DOI is real.
-- **[Vectara Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard)** —
-  a live, regularly-updated public leaderboard ranking LLMs by hallucination rate on summarization tasks, powered by the open HHEM model.
+Official docs for resolving DOIs and metadata; the standard first stop for checking
+whether a cited DOI is real.
 - **[eyecite tutorial notebook](https://github.com/freelawproject/eyecite/blob/main/TUTORIAL.ipynb)** —
-  Hands-on notebook for extracting, cleaning, and resolving legal citations from raw text.
+Hands-on notebook for extracting, cleaning, and resolving legal citations from raw text.
 - **["Understanding and Mitigating LLM Hallucinations" — Towards Data Science](https://towardsdatascience.com/understanding-and-mitigating-llm-hallucinations-be88d31c4200/)** —
-  Accessible walkthrough of the SelfCheckGPT family of methods (BERTScore, QA, n-gram,
-  NLI, LLM-prompting) with worked examples.
+Accessible walkthrough of the SelfCheckGPT family of methods (BERTScore, QA, n-gram,
+NLI, LLM-prompting) with worked examples.
+- **[Vectara Hallucination Leaderboard](https://github.com/vectara/hallucination-leaderboard)** —
+Live, regularly-updated public leaderboard ranking LLMs by hallucination rate on
+summarization tasks, powered by the open HHEM model (trained in part on RAGTruth,
+already cited in this repository's Datasets section).
+
 
 ## License
 
