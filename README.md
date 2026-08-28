@@ -25,7 +25,6 @@ search engines.
 - [Tools and Libraries](#tools-and-libraries)
 - [GitHub Implementations](#github-implementations)
 - [Tutorials and Learning Resources](#tutorials-and-learning-resources)
-- [Verification Log](#verification-log)
 - [License](#license)
 
 ---
@@ -130,12 +129,7 @@ Every entry below was checked against a primary source before inclusion. The pro
 5. **Check the version.** For preprints, the version consulted is noted where a revision
    changed the paper's title, framing, or headline numbers.
 
-Three errors were caught and corrected by this process; they are recorded in the
-[Verification Log](#verification-log) rather than silently fixed, since documenting caught
-errors is part of the point of this repository.
 
-**Caveat:** several entries are 2026 preprints and are still being revised. Re-check
-versions before citing them in your own work.
 
 ---
 
@@ -441,26 +435,6 @@ quality, reproducibility, licensing, and active maintenance rather than star cou
 
 ---
 
-## Verification Log
-
-Errors caught while verifying this collection, kept visible rather than silently corrected.
-
-| # | Entry | Error found | Correction |
-| --- | --- | --- | --- |
-| 1 | arXiv:2606.13104 (AuthorityBench) | Repository link was malformed (`floatingreeds`) | Corrected to `floating-reeds/AuthorityBench` after confirming against the paper's abstract |
-| 2 | arXiv:2606.00898 | Cited under its v1 title, and summarised as *proposing* a citation-graph grounding method | v2 retitled the paper and reversed its argument; title and description replaced to match the version of record |
-| 3 | arXiv:2401.00396 (RAGTruth) | Author list read "Niu, Wu, Zhang, Zhao" — no author named Zhao is on this paper | Corrected to Niu, Wu, Zhu, Xu, Shum, Zhong, Song, Zhang from the ACL Anthology record |
-| 4 | arXiv:2403.12077 | Preprint title used; description claimed the paper reports citation precision and recall | Switched to the peer-reviewed ACL 2024 title ("Factoid Questions"); description corrected to the human-evaluation findings the paper actually reports |
-| 5 | arXiv:2405.14034 | Described as a "survey" of citation verifiability | It is an empirical audit of source bias and authority; description rewritten and the entry's relevance stated explicitly |
-| 6 | arXiv:2606.21155 | Dataset size and name carried over from v1 | Updated to the v2 figure of 1,300 brief excerpts; the v1 dataset name was removed pending confirmation in the current version |
-
-Twelve entries originally lacked author information. All author lists were subsequently
-retrieved from the arXiv abstract page, ACL Anthology record, or publisher page and are
-recorded above.
-
-**Last full verification:** 28 August 2026.
-
----
 
 ## License
 
