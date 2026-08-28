@@ -6,16 +6,7 @@ Language Models (LLMs) and agentic search tools** — covering general-purpose c
 retrieval-augmented generation (RAG) systems, legal-research AI products, and generative
 search engines.
 
-> Course: AI Tools for Research · Activity: GitHub Research Curation and Documentation
-> Maintained by: **Satyala Murali Karthik** · Roll No.: **MCL2026010**
 
-> **Link verification:** every paper, dataset, and tool link below was checked against a
-> live source (arXiv, ACL Anthology, publisher page, or the linked GitHub repo) as of
-> **28 August 2026**. One error was caught and corrected during verification: the
-> AuthorityBench repository link initially pointed to a malformed URL
-> (`floatingreeds`) and was corrected to the real repository
-> (`floating-reeds/AuthorityBench`) after direct confirmation. Links should still be
-> re-checked periodically, since several entries are very recent preprints.
 
 ## Contents
 
